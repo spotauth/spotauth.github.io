@@ -11,6 +11,5 @@ layout: spotifyauth
 <div class="approvalDiv">
 <span id="approvalCode"></span>
 </div>
-<br/>
 #### Copy paste the text above into the *Approval Code* field.
 If the blue box is empty you probably have something blocking Javascript in your browser.
