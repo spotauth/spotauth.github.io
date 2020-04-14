@@ -7,7 +7,6 @@
 }
 
 .warningDiv {
-	float:right;
 	background-color:orange;
 }
 
@@ -21,4 +20,6 @@
 	float:left;
 	height:126px;
 	width:240px;
+	padding-top:5px;
+	padding-right:10px;
 }
