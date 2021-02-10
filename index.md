@@ -9,7 +9,7 @@ layout: spotifyauth
 ## Your Approval Code is:
 
 <div class="approvalDiv">
-<span id="approvalCode"></span>
+  <textarea id="approvalCode" readonly placeholder="Approval code will appear here"></textarea>
 </div>
 #### Copy paste the text above into the *Approval Code* field.
-If the blue box is empty you probably have something blocking Javascript in your browser.
+If the text box is empty you probably have something blocking Javascript in your browser.

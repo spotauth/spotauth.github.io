@@ -1,5 +1,7 @@
-$().ready(function() {
-   var urlParams = new URLSearchParams(window.location.search);
-   var codeParam = urlParams.get('code');
-   $("#approvalCode").html(codeParam);
+$(() => {
+	const urlParams = new URLSearchParams(window.location.search);
+	const codeParam = urlParams.get('code');
+	const approvalCode = $("#approvalCode");
+	approvalCode.val(codeParam);
+	approvalCode.click(() => approvalCode.select());
 });
